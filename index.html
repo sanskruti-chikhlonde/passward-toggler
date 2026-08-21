@@ -4,26 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Passward Toggler</title>
+    <link rel="stylesheet" href="style.css">
+    
 </head>
 <body>
      
-    <div class="passward-card">
-        <h1>Passward</h1>
-        <p>Enter your passward below</p>
+    <div class="password-card">
+        <h1>Password</h1>
 
         <div class="input-container">
+
             <input
-              types="passward"
-              id="passward"
-              placeholder="Enter passward">
+              types="password"
+              id="password"
+              placeholder="Enter password">
             
-            <button is ="toggleBtn">
+            <button id="toggleBtn">
                 <img
                     src="images/hide-Icon.png"
-                    id=""eyeIcon
+                    id="eyeIcon"
                     alt="Show passward">
             </button>
         </div>
+
+        <p class="password-hint">Minimum 8 characters</p> 
     </div>
 </body>
 </html>
